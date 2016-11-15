@@ -1,0 +1,14 @@
+body{
+	background-color: #b71c1c;
+}
+
+
+.login-form{
+	margin-top: 5em;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.btn{
+	background-color: #ff5a92 !important;
+}

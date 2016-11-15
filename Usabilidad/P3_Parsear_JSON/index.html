@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>UniversiCar</title>
+	<meta charset="UTF-8">
+<!-- ..........................................LINKS A ESTILOS Y ICON .......................................... -->
+
+	<link rel="shortcut icon" href="./Imagenes/logo.png">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<!-- ..........................................JAVASCRIPT .......................................... -->
+
+
+</head>
+
+
+<body>
+
+<!-- ..........................................NAVEGADOR .......................................... -->
+
+	<div class="nav">
+		<h1 class="navbt"> UniversiCar</h1>
+	</div>
+	
+
+<div class="total">
+
+
+<!-- ..........................................LADO IZQUIERDO .......................................... -->
+
+		<div class="izq">
+		   <div class="relleno">
+				
+			<ul id="menuListHoriz" >
+			  <li><a href='index.html' rel='nofollow'>Home</a></li>
+			  <li><a href='conductores.html' rel='nofollow'>Conductores</a></li>
+			  <li><a href='#' rel='nofollow'>Información</a></li>
+			</ul> 
+			</div>	
+		</div>
+
+
+<!-- ..........................................CENTRAL.......................................... -->
+
+		<div class="center">
+
+			<p>
+					 UniversiCar, es una aplicación web capaz de poner en 
+					contacto a personas que se desplazan a la universidad
+					de la laguna desde todas las partes de la isla de Tenerife con el próposito de que compartan coche. La aplicación realizara las siguientes tareas:
+			</p>
+
+			<ol>
+					<li>Gestionar y crear tipos de usuarios </li>
+					<li>Incorporación de usuarios.</li>
+					<li>Gestión de rutas.</li>
+					<li>Incorporación de rutas. </li>
+					<li>Avisos de esperas.  </li>
+					<li>Geolocalización de conductor y acompañante. </li>
+			</ol>
+			
+			</br>
+
+			<img src="./Imagenes/logo.png" id="imgizq" width=200 height=180/>
+			<img src="./Imagenes/coche.jpg" width=300 height=300/>	
+
+
+<!-- ..........................................DERECHA .......................................... -->
+
+		</div>
+		<div class="der">
+		<!--	<div align="center">
+					<img src="./Imagenes/logo.png" width=146 height=180 border=2/>
+			</div>-->
+<!-- ..........................................LOGIN .......................................... -->
+
+
+			<form action="" target="_blank" method="GET" >
+							
+				<fieldset>
+						<legend>Login</legend>
+						
+							<input type="text" class="primero" name="nombre" value="" placeholder="Nombre" autofocus/>
+							<input type="password" name="password" value="" placeholder="Contraseña" />
+					
+							<!--<a href="./Imagenes/logo.png" target="_blank">Imagen de nuestro logo.</a></br>-->
+							<input type="submit" value="Entrar" target="_blank"/>
+					  
+				</fieldset>
+			</form> 
+
+
+
+<!--pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" -->
+<!-- .......................................... REGISTRO .......................................... -->
+
+			<form action="fin_registro.html" target="_blank" method="GET" >
+					<fieldset>
+						<legend>Registro</legend>
+								<input type="text" class="primero" name="nombre" value="" placeholder="Nombre"/>
+								<input value="" type="text" name="apellidos" placeholder="Apellidos"/>
+								<input type="text"  name="email" placeholder="Email"/> 
+								<input type="password" name="password" value="" placeholder="Contraseña"/>
+								<input type="password" name="password2" value="" placeholder="Confirmar Contraseña" />
+								<input class="sexo" name="sexo" type="radio" valor="mujer"/>Mujer
+								<input class="sexo" name="sexo" type="radio" valor="hombre"/>Hombre</br></br>
+							
+			  
+								<select name="Mes" class="Fecha" class="form-control">
+									<option value="Enero">Enero</option>
+									<option value="Febrero">Febrero</option>
+									<option value="Marzo">Marzo</option>
+									<option value="Abril">Abril</option>
+									<option value="Mayo">Mayo</option>
+									<option value="Junio">Junio</option>
+									<option value="Julio">Julio</option>
+									<option value="Agosto">Agosto</option>
+									<option value="Septiembre">Septiembre</option>
+									<option value="Octubre">Octubre</option>
+									<option value="Noviembre">Noviembre</option>
+									<option value="Diciembre">Diciembre</option>
+							 	</select>
+							  	<select name="Dia" class="Fecha" class="form-control">
+									<script> 
+									  var dia = 31;
+									  for(a=1;a<=dia;a++){ 
+									  document.write('<option value="'+a+'">'+a+'</option>'); 
+									  } 
+									</script> 
+								</select> 
+								<select name="Age" class="Fecha" class="form-control">
+									<script> 
+									  var anio = 1930;
+									  for(a=2015;a>=anio;a--){ 
+									  document.write('<option value="'+a+'">'+a+'</option>'); 
+									  } 
+									</script>
+								</select>
+							 </p>
+							 <input type="submit" value="Enviar" target="_blank" />
+					</fieldset>
+			</form>
+		</div>
+	</div>
+
+
+<!-- ..........................................FOOTER .......................................... -->
+	<div class="foot">
+		  <h2>Enlaces de interes</h2>
+		  <a class="enlaces" href="https://www.google.es" target="_blank">Pagina google.</a>
+		  <a class="enlaces" href="./Imagenes/logo.png" target="_blank">Imagen de nuestro logo.</a>
+		  <a class="enlaces" href="https://i.ytimg.com/vi/qTtqhxtAchk/hqdefault.jpg" target="_blank">Una imagen de internet.</a>
+	</div>
+
+
+</body>
+</html>

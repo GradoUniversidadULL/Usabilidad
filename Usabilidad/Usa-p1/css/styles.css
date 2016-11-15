@@ -1,0 +1,99 @@
+
+body{
+	background-color:#F5BCA9;
+    font-family: arial;
+    font-size: 1.5em; 
+    color: black;
+}
+
+a:link{ 
+    color: blue;
+}
+a:visited { 
+    font-family: Verdana;
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+table a:link{  
+    font-family: Verdana;
+    color:green;
+}
+
+table a:visited{
+     color:red;
+}
+
+table a:hover{
+     color:green;
+}
+
+.nav{
+	text-align:center;
+	padding: 0px;
+	font-size: 3em;
+}
+
+.izqu{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 3em;
+}
+
+
+.der{
+	float: right;
+	display: inline-block;
+	width: 40%;
+	margin-top: 4em;
+}
+
+.last{
+	clear: both;
+}
+
+
+p{
+	margin-top: 0.5em;
+}
+.relleno{
+	margin-bottom: 0.7em;
+	padding: 0.3em;
+	margin-top: -5em;
+}
+
+
+
+ol li:hover {
+	background: white;
+}
+
+
+
+
+ #menuListHoriz li {
+  list-style: none;
+  display: inline;/* Es necesario para que los elementos de la lista se situen uno tras otro (horizontalidad) */
+}
+
+#menuListHoriz li a, #menuList1 li a:focus {
+  
+  background-color: #99CCCC;
+  border: 1px solid #0000FF;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-family: Verdana,Arial,Helvetica;
+  font-size: 12px;
+  font-weight:bold;
+}
+
+#menuListHoriz li a:hover {
+  background-color: #003399;
+  border-color: #FFF;
+  
+}

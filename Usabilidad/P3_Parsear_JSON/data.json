@@ -1,0 +1,29 @@
+{ "conductores": 
+[
+  {
+    "model": "Citröen",
+    "nomb": "Eric Ramos",
+    "ant": "1 año",
+    "viaj": "Santa Cruz",
+    "otros_viaj":"nadie",
+    "zonacc": "La Laguna"
+  },
+  {
+    "model": "Renault",
+    "nomb": "Paco Palillos",
+    "ant": "1 día",
+    "viaj": "Adeje",
+    "otros_viaj":"nadie",
+    "zonacc": "Santa Úrsula"
+  },
+  {
+    "model": "Opel Corsa",
+    "nomb": "Salabreña",
+    "ant": "1 mes",
+    "viaj": "Arico",
+    "otros_viaj":"2 personas",
+    "zonacc": "San Matías"
+  }
+
+]
+}
